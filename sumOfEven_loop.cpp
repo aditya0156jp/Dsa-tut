@@ -8,8 +8,8 @@ int main()
     int i = 0, sum = 0;
     while (i <= n)
     {
-        sum += i;
-        i += 2;
+        sum = sum + i;
+        i = i+ 2;
     }
     cout << "Sum of all even numbers till " << n << " is : " << sum << endl;
     return 0;
